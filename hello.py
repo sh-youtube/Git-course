@@ -9,11 +9,15 @@ hi.welcome to git course's game.Choose your desired game from the following opti
 3.bigest number
 4.exit
  '''
-print(hi)
 
-x = int(input("your choice: "))
 
 while h == True:
+    print(hi)
+    x = int(input("your choice: "))
+    
     if x == 1:
         a = int(input("What number is in my mind: "))
         random_number(a)
+    if x == 2:
+        a = int(input("give me your number: "))
+        prime(a)
