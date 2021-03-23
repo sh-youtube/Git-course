@@ -24,3 +24,8 @@ while h == True:
     elif x == 3:
         a = int(input())
         bignum(a)
+    elif x == 4:
+        h = False
+        print("Finished!")
+    else:
+        print("ERROR! You have to choose from the numbers above.")
