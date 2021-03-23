@@ -23,3 +23,13 @@ def prime(num):
         print("prime")
     else:
         print("not prime")
+
+#3
+def bignum(num):
+    x = num
+    max_number = 0
+    while x > -1:
+        x = int(input())
+        if max_number < x:
+            max_number = x
+    print(max_number)
