@@ -1,7 +1,7 @@
 from random import randint
 
 #1
-def random(num):
+def random_number(num):
     a = randint(1,99)
     gess = num
     while gess != a:
@@ -10,6 +10,7 @@ def random(num):
         else:
             print("bigger")
         gess = int(input())
+        
     print("thats right")
 
 #2
