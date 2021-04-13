@@ -1,4 +1,7 @@
 from random import randint
+from win10toast import ToastNotifier
+
+message = ToastNotifier()
 
 #1
 def random_number(num):
@@ -11,7 +14,7 @@ def random_number(num):
             print("bigger")
         gess = int(input())
         
-    print("thats right")
+    return message.show_toast("random game", "!!!!!!WOOOOW. you are win!!!!!!!!")
 
 #2
 def prime(num):
